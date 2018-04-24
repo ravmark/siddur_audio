@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://(.+\.)?sidduraudio\.com/ [NC]
+RewriteCond %{HTTP_REFERER} !^$
+RewriteRule .*\.(jpe?g|gif|mp3|png)$ /Audio/nohotlink.jpe [L]

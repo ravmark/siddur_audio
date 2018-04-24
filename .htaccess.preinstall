@@ -1,0 +1,4 @@
+order allow,deny
+deny from 69.124.232.159
+deny from 67.201.81.4
+allow from all

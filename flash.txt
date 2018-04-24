@@ -1,0 +1,3 @@
+logo=Welcome to SiddurAudio.com
+&slogan=             Your online resource to learn how to daven!
+&url=index.html

@@ -1,0 +1,936 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+
+<!-- EDIT THE NEXT THREE LINES -->
+
+<title>Siddur Audio - Purchase CDs</title>
+<meta name="Description" content="SiddurAudio.com CD">
+<meta name="KeyWords" content="SiddurAudio, Siddur, Audio, CD, order">
+
+
+
+<!-- EDIT THE ABOVE THREE LINES -->
+
+
+<META name="Copyright" content="Copyright 2005 AllWebCo Design http://allwebcodesign.com/">
+<META name="revisit-after" content="15 days">
+<META name="robots" content="index, follow">
+<META name="Robots" content="All">
+
+
+<link rel="StyleSheet" href="style.css" type="text/css" media="screen">
+
+
+<!--  Java Script for selecting Paypal shipping follows -->
+
+<script type="text/javascript">
+<!--
+function Dollar (val) {  // force to valid dollar amount
+var str,pos,rnd=0;
+  if (val < .995) rnd = 1;  // for old Netscape browsers
+  str = escape (val*1.0 + 0.005001 + rnd);  // float, round, escape
+  pos = str.indexOf (".");
+  if (pos > 0) str = str.substring (rnd, pos + 3);
+  return str;
+}
+
+function SetShip (obj1) {  // record selected shipping option
+var j,obj,pos,tok,val,txt;
+var ary = new Array ();
+  obj = obj1.shp;          // refer to shipping select
+  pos = obj.selectedIndex; // get selection
+  if (pos == 0) {          // force a selection
+    alert ("Make a shipping selection!");
+    return false;
+  }
+  obj1.handling.value = "0";
+  obj1.handling_cart.value = "0";
+  obj1.shipping.value = "0";
+  obj1.shipping2.value = "0";
+  val = obj.options[pos].value;   // selected value
+  txt = obj.options[pos].text;    // the text value
+  ary = val.split (" ");          // break apart
+  for (j=0; j<ary.length; j++) {  // look at all items
+// do 3-character tokens...
+    if (ary[j].length < 4) continue;
+    tok = ary[j].substring (0,3); // first 3 chars
+    val = ary[j].substring (3);   // get data
+    if (tok == "hn=")             // value for item handling
+      obj1.handling.value  = val;
+    if (tok == "hc=")             // value for handling cart
+      obj1.handling_cart.value  = val;
+    if (tok == "s1=")             // value for shipping
+      obj1.shipping.value  = val;
+    if (tok == "s2=")             // value for shipping2
+      obj1.shipping2.value = val;
+  }
+  obj1.os0.value = txt;           // stuff the text into options field
+}
+//-->
+</script>
+
+
+</head>
+
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" marginheight="0" marginwidth="0">
+
+
+
+<script language="JavaScript" src="header.js"></script>
+
+
+<TABLE cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+<td background="picts/bar.gif">
+<IMG SRC="picts/spacer.gif" HEIGHT="25" WIDTH="10" border="0"><br>
+</td></tr></table>
+
+
+
+<!-- OUTER TABLE-->
+<TABLE cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td ALIGN="CENTER" VALIGN="TOP">
+
+
+
+<!-- SPLIT TABLE-->
+<TABLE cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td width="30" bgcolor="#279BA6">
+
+<IMG SRC="picts/spacer.gif" HEIGHT="30" WIDTH="30" alt=""><br>
+
+
+</td><td ALIGN=LEFT VALIGN=TOP WIDTH="200" bgcolor="#F0F0F0" background="picts/background-left.gif">
+
+
+
+
+<!-- This is the FORM to view the cart contents -->
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_self" id="viewcart" name="viewcart">
+<p>
+<input type="hidden" name="cmd" value="_cart" />
+<input type="hidden" name="display" value="1" />
+<input type="hidden" name="business" value="&#114;&#097;&#118;&#109;&#097;&#114;&#107;&#064;&#122;&#105;&#109;&#109;&#101;&#114;&#109;&#097;&#110;&#046;&#110;&#101;&#116;" />
+<input type="hidden" name="shopping_url" value="http://sidduraudio.com/cd-order.html">
+</p>
+</form>
+<!-- End of view cart FORM -->
+
+
+
+<center>
+<!-- YOU CAN CHANGE THIS PICTURE FOR YOUR OWN ICON-->
+&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<IMG SRC="siddur1.jpg" HEIGHT="220" WIDTH="150" border="1" alt="Siddur"><br>
+</center>
+
+<p>
+
+<!-- THIS CALLS THE FILE WITH THE MENU LINKS IN IT-->
+
+<script language="JavaScript" src="menu.js"></script>
+
+
+<!-- SIDE INFO TABLE -->
+
+<TABLE cellpadding="20" cellspacing="0" border="0" BORDERCOLOR="#000000"><tr><td ALIGN="LEFT" VALIGN="TOP">
+<span class="sidebartext">
+
+<hr>
+
+<b><font size="+1"> Siddur Audio</font></b><br>
+
+<hr>
+
+
+
+
+
+
+
+</span>
+
+<p>
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=943177; 
+var sc_invisible=1; 
+var sc_security="8a9bd4c8"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="hit counter"
+href="http://statcounter.com/free-hit-counter/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/943177/0/8a9bd4c8/0/" alt="hit
+counter"></a></div></noscript>
+<!-- End of StatCounter Code  -->
+
+
+<p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>
+
+
+
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+
+
+
+
+	
+
+
+	
+
+</td></tr></table>
+<!-- END SIDE INFO TABLE -->
+
+
+
+
+
+
+
+<!--- THIS FILE TELLS THE PAGEs HOW HIGH TO BE. OPEN THE page_height.js TO CHANGE IT -->
+
+
+<script language="JavaScript" src="page_height.js"></script>
+
+
+
+
+
+
+</td><td ALIGN="CENTER" VALIGN="TOP">
+
+
+
+
+
+<!-- START MAIN CONTENT TABLE -->
+<TABLE cellpadding="0" cellspacing="20" border="0" width="95%"><tr><td ALIGN="LEFT" VALIGN="TOP">
+
+
+
+<!-- COPY AND PASTE CODE BELOW TO MAKE A NEW PARAGRAPH -->
+
+<span class="title">
+
+<h3>
+<font size="+1" color="Blue"><u>Purchase Audio CDs</u></font>   
+</h3>
+
+</span>
+
+<p>
+<b>We recently updated our website to handle automated orders via Paypal. The CD's below are produced in regular 
+"audio CD" format (not mp3 computer files as on the website) so the disks will be playable in any regular 
+CD player. You can click here to see the <a href="cd-tracks.html"><u>Complete CD Track List</u></a>.</b>
+<p>
+(Please make sure to select the correct shipping option. 
+You must select either 'USA and Canada', or 'International' for orders shipped to any other country.)
+
+
+<p><b>* Go to this link to get information on bulk or custom CD orders for <a href="cd-bulk.html"><u>synagogues and schools</u></a>.</b>
+
+<br><br>
+
+<font color="Red"><b>---> Tracks also available via the <a href="http://www.tunecore.com/music/sidduraudio">
+<u>iTunes Store</u></a> for download to your iPhone or iPod!</font></b>  
+
+<br><br>
+---> Also available now on 
+<a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Ddigital-music&field-keywords=Siddur+Audio"><u><b>Amazon</b></u></a>,
+or <a href="https://play.google.com/store/search?q=Siddur+Audio&c=music&docType=2#?t=W10."><u><b>Google Play</b></u></a> for Android devices.
+
+<br><br>
+<hr align=left width="435" height="3">
+
+<br><br>
+
+
+
+
+<table cellspacing="2" cellpadding="2" border="0">
+<tr>
+<td bgcolor="cccccc">
+<span class="subtitle">&nbsp;<img src="redarrow.gif" width="22" height="18" border="0" alt="">
+<a href="#1"><font color="Blue"><u>Click here</u></a> to save on the complete</font> 
+
+<a href="#1"><font color="Red"><u>3-Disk Shabbat Set&nbsp;</u>!</a>&nbsp;</font></span>
+</td>
+
+</tr>
+</table>
+
+<br><br>
+
+
+<!-- NEWS TABLE 1 -->
+<TABLE cellpadding="3" cellspacing="0" border="0" width="100%"><tr><td ALIGN="left" VALIGN="top" class="just">
+
+<span class="subtitle"><font color="Blue"><li>Erev Shabbat Service - Disc #1</font></span><BR>
+
+This disc contains all the tracks for the Friday evening Erev Shabbat Services, as listed on the home page.
+<br>
+
+<span class="price"><font color="Blue">Price $17.50</font></span>
+<br>
+
+<!-- START PAYPAL ORDERING 1 -->
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"  
+onsubmit="this.target='_self';
+          return SetShip (this);">
+
+<input type="hidden" name="cmd" value="_cart" />
+<input type="hidden" name="add" value="1" />
+<input type="hidden" name="business" value="&#114;&#097;&#118;&#109;&#097;&#114;&#107;&#064;&#122;&#105;&#109;&#109;&#101;&#114;&#109;&#097;&#110;&#046;&#110;&#101;&#116;" />
+<input type="hidden" name="item_name" value="Erev Shabbat CD" />
+<input type="hidden" name="item_number" value="201" />
+<input type="hidden" name="amount" value="17.50" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="hidden" name="lc" value="US" />
+<input type="hidden" name="shopping_url" value="http://sidduraudio.com/cd-order.html">
+
+<input type="hidden" name="handling" value="" />
+<input type="hidden" name="handling_cart" value="" />
+<input type="hidden" name="shipping" value="" />
+<input type="hidden" name="shipping2" value="0" />
+<input type="hidden" name="on0" value="Shipping" />
+<input type="hidden" name="os0" value="" />
+
+Input Qty - 
+
+<input type="text" name="quantity" size="3" value="1" /> &nbsp; 
+
+<select name="shp">
+  <option>Select Shipping</option>
+  <option value="s1=3.50 s2=0.50">USA & Canada </option>
+  <option value="s1=5.95 s2=1.00">International</option>
+  
+</select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="addcart.gif" align="absmiddle" name="submit" alt="cart add" />
+
+</p>
+</form>
+
+
+<!-- END PAYPAL ORDERING 1 -->
+
+
+<BR>
+
+</td><td width="125" VALIGN="top" align="right">
+
+</td></tr></table>
+<!-- NEWS TABLE 1 -->
+
+
+
+<br>
+
+
+
+<!-- NEWS TABLE 2 -->
+<TABLE cellpadding="3" cellspacing="0" border="0" width="100%"><tr><td ALIGN="left" VALIGN="top" class="just">
+
+<span class="subtitle"><font color="Blue"><li>Shabbat Morning Service - Disc #2</font></span><BR>
+
+This disk contains the tracks from the Shabbat morning service listed on the home page (except for 
+Festival Hallel which is on Disk #3).
+<br>
+
+<span class="price"><font color="Blue">Price $17.50</font></span>
+<br>
+
+
+
+<!-- START PAYPAL ORDERING 2 -->
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"  
+onsubmit="this.target='_self';
+          return SetShip (this);">
+
+<input type="hidden" name="cmd" value="_cart" />
+<input type="hidden" name="add" value="1" />
+<input type="hidden" name="business" value="&#114;&#097;&#118;&#109;&#097;&#114;&#107;&#064;&#122;&#105;&#109;&#109;&#101;&#114;&#109;&#097;&#110;&#046;&#110;&#101;&#116;" />
+<input type="hidden" name="item_name" value="Shabbat Morning CD" />
+<input type="hidden" name="item_number" value="202" />
+<input type="hidden" name="amount" value="17.50" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="hidden" name="lc" value="US" />
+<input type="hidden" name="shopping_url" value="http://sidduraudio.com/cd-order.html">
+
+<input type="hidden" name="handling" value="" />
+<input type="hidden" name="handling_cart" value="" />
+<input type="hidden" name="shipping" value="" />
+<input type="hidden" name="shipping2" value="0" />
+<input type="hidden" name="on0" value="Shipping" />
+<input type="hidden" name="os0" value="" />
+
+Input Qty - 
+
+<input type="text" name="quantity" size="3" value="1" /> &nbsp; 
+
+<select name="shp">
+  <option>Select Shipping</option>
+  <option value="s1=3.50 s2=0.50">USA & Canada </option>
+  <option value="s1=5.95 s2=1.00">International</option>
+  
+</select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="addcart.gif" align="absmiddle" name="submit" alt="cart add" />
+
+</p>
+</form>
+
+
+<!-- END PAYPAL ORDERING 2 -->
+
+
+<BR>
+
+
+</td><td width="125" VALIGN="top" align="right">
+
+</td></tr></table>
+<!-- NEWS TABLE 2 -->
+
+
+<br>
+
+
+
+<!-- NEWS TABLE 3 -->
+<TABLE cellpadding="3" cellspacing="0" border="0" width="100%"><tr><td ALIGN="left" VALIGN="top" class="just">
+
+<span class="subtitle"><font color="Blue"><li>Miscellaneous Selections - Disc #3</font></span><BR>
+
+This CD contains most selections listed under the "Miscellaneous" heading on the home page. (Includes
+Torah Blessings, Hallel, An'im Z'mirot, Shabbat Home Rituals, Shir Hama'alot, Birkat HaMazon, 
+Shabbat Mincha, Havdalah, Weekday Mincha, Ma'ariv, etc.)
+<br>
+
+<span class="price"><font color="Blue">Price $17.50</font></span>
+<br>
+
+<!-- START PAYPAL ORDERING 3 -->
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"  
+onsubmit="this.target='_self';
+          return SetShip (this);">
+
+<input type="hidden" name="cmd" value="_cart" />
+<input type="hidden" name="add" value="1" />
+<input type="hidden" name="business" value="&#114;&#097;&#118;&#109;&#097;&#114;&#107;&#064;&#122;&#105;&#109;&#109;&#101;&#114;&#109;&#097;&#110;&#046;&#110;&#101;&#116;" />
+<input type="hidden" name="item_name" value="Siddur Audio Misc. Selections - Disc 3" />
+<input type="hidden" name="item_number" value="203" />
+<input type="hidden" name="amount" value="17.50" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="hidden" name="lc" value="US" />
+<input type="hidden" name="shopping_url" value="http://sidduraudio.com/cd-order.html">
+
+<input type="hidden" name="handling" value="" />
+<input type="hidden" name="handling_cart" value="" />
+<input type="hidden" name="shipping" value="" />
+<input type="hidden" name="shipping2" value="0" />
+<input type="hidden" name="on0" value="Shipping" />
+<input type="hidden" name="os0" value="" />
+
+Input Qty - 
+
+<input type="text" name="quantity" size="3" value="1" /> &nbsp; 
+
+<select name="shp">
+  <option>Select Shipping</option>
+  <option value="s1=3.50 s2=0.50">USA & Canada </option>
+  <option value="s1=5.95 s2=1.00">International</option>
+  
+</select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="addcart.gif" align="absmiddle" name="submit" alt="cart add" />
+
+</p>
+</form>
+
+<!-- END PAYPAL ORDERING 3 -->
+
+
+</td><td width="125" VALIGN="top" align="right">
+</td></tr></table>
+
+<a name=1>&nbsp;</a>
+
+<hr align=left width="435" height="3">
+<p>
+
+
+
+
+<!-- NEWS TABLE 4 -->
+
+<table bgcolor="cccccc" cellspacing="2" cellpadding="2" border="0" width="90%"><tr><td ALIGN="left" VALIGN="top">
+
+<br><br>
+<span class="subtitle"><img src="redarrow.gif" width="22" height="18" border="0" alt=""><font color="blue"> Siddur Audio - </font><font color="Red"><u>Complete Shabbat 3 CD Set</u></font></span><BR>
+
+This contains the full "Shabbat Set" of <b>all 3 discs </b>described above (Shabbat and misc. selections). Includes all the prayers and Shabbat home rituals 
+listed on the SiddurAudio.com home page.
+<br>
+
+<span class="price"><font color="Blue">Price $46.50</font></span>
+<br>
+
+<!-- START PAYPAL ORDERING 4 -->
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"  
+onsubmit="this.target='_self';
+          return SetShip (this);">
+
+<input type="hidden" name="cmd" value="_cart" />
+<input type="hidden" name="add" value="1" />
+<input type="hidden" name="business" value="&#114;&#097;&#118;&#109;&#097;&#114;&#107;&#064;&#122;&#105;&#109;&#109;&#101;&#114;&#109;&#097;&#110;&#046;&#110;&#101;&#116;" />
+<input type="hidden" name="item_name" value="SiddurAudio.com Complete Shabbat 3 CD Set" />
+<input type="hidden" name="item_number" value="230" />
+<input type="hidden" name="amount" value="46.50" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="hidden" name="lc" value="US" />
+<input type="hidden" name="shopping_url" value="http://sidduraudio.com/cd-order.html">
+
+<input type="hidden" name="handling" value="" />
+<input type="hidden" name="handling_cart" value="" />
+<input type="hidden" name="shipping" value="" />
+<input type="hidden" name="shipping2" value="0" />
+<input type="hidden" name="on0" value="Shipping" />
+<input type="hidden" name="os0" value="" />
+
+Input Qty - 
+
+<input type="text" name="quantity" size="3" value="1" /> &nbsp; 
+
+<select name="shp">
+  <option>Select Shipping</option>
+  <option value="s1=4.95 s2=1.00">USA & Canada </option>
+  <option value="s1=12.95 s2=4.50">International</option>
+  
+</select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="addcart.gif" align="absmiddle" name="submit" alt="cart add" />
+
+</p>
+</form>
+
+</td><td width="125" VALIGN="top" align="right">
+</td></tr></table>
+
+<br>
+
+<font color="Red" size="-1" ><b>** Bonus - Add any CD below to this set for only <u>$10</u> each (either one or both).</font></b><br>
+<font color="Red" size="-2" ><b> - To get discount you must use the "Add To Cart" button <u>inside</u> the gray box.</font></b>
+
+<br><br>
+
+<!-- END PAYPAL ORDERING 4 -->
+
+
+
+<hr align=left width="435" height="3">
+<p>
+
+<!-- NEWS TABLE 5 -->
+
+<TABLE cellpadding="3" cellspacing="0" border="0" width="100%"><tr><td ALIGN="left" VALIGN="top">
+
+<span class="subtitle"><font color="Blue"><li>Weekday Minyan CD</font></span><BR>
+
+This disc contains all the tracks from the Weekday Services as listed on SiddurAudio.com. 
+Includes Pesikey D'Zimra, Shachrit, Torah Service, Mincha, Ma'ariv and Birkat HaMazon.
+<br>
+
+<span class="price"><font color="Blue">Price $17.50</font></span> <font color="Red" size="+0"><b>*</b></font>
+<br>
+
+<!-- START PAYPAL ORDERING 5 -->
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"  
+onsubmit="this.target='_self';
+          return SetShip (this);">
+
+<input type="hidden" name="cmd" value="_cart" />
+<input type="hidden" name="add" value="1" />
+<input type="hidden" name="business" value="&#114;&#097;&#118;&#109;&#097;&#114;&#107;&#064;&#122;&#105;&#109;&#109;&#101;&#114;&#109;&#097;&#110;&#046;&#110;&#101;&#116;" />
+<input type="hidden" name="item_name" value="Weekday Minyan CD" />
+<input type="hidden" name="item_number" value="204" />
+<input type="hidden" name="amount" value="17.50" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="hidden" name="lc" value="US" />
+<input type="hidden" name="shopping_url" value="http://sidduraudio.com/cd-order.html">
+
+<input type="hidden" name="handling" value="" />
+<input type="hidden" name="handling_cart" value="" />
+<input type="hidden" name="shipping" value="" />
+<input type="hidden" name="shipping2" value="0" />
+<input type="hidden" name="on0" value="Shipping" />
+<input type="hidden" name="os0" value="" />
+
+Input Qty - 
+
+<input type="text" name="quantity" size="3" value="1" /> &nbsp; 
+
+<select name="shp">
+  <option>Select Shipping</option>
+  <option value="s1=3.50 s2=0.50">USA & Canada </option>
+  <option value="s1=5.95 s2=1.00">International</option>
+  
+</select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="addcart.gif" align="absmiddle" name="submit" alt="cart add" />
+
+</p>
+</form>
+
+<br>
+
+
+<!-- Form for Bonus Disk $10 Offer -->
+
+<table bgcolor="cccccc" cellspacing="3" cellpadding="3" border="0" width="90%">
+<tr>
+<td>
+
+<br>
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_self">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="&#114;&#097;&#118;&#109;&#097;&#114;&#107;&#064;&#122;&#105;&#109;&#109;&#101;&#114;&#109;&#097;&#110;&#046;&#110;&#101;&#116;">
+<input type="hidden" name="item_name" value="Weekday Minyan CD - $10 Bonus">
+<input type="hidden" name="item_number" value="204">
+<input type="hidden" name="amount" value="10.00">
+<input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="bn" value="PP-ShopCartBF">
+<input type="hidden" name="shopping_url" value="http://sidduraudio.com/cd-order.html">
+
+<font color="Blue" size="-1"><b>** Bonus **</b></font><br>
+<font color="Red" size="-1"><b>For <u>only $10</u></font>&nbsp;<font color="Blue"> - Add Weekday CD to the Shabbat 3-disk Set&nbsp;</font> </b>
+<br>First add the <font color="Red">Shabbat 3 Disk Set</font> to your cart (above), then <br>click on <u>following</u> button to buy this disk 
+for just $10 more:<br><br>
+
+<input type="image" src="addcart.gif" align="absmiddle" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<font color="Red" size="+0"><b>* </font><font color="Red">Use <u>THIS BUTTON</u> for $10 Bonus CD</b></font>
+</form>
+
+
+
+</td></tr></table>
+
+
+<!-- END PAYPAL ORDERING 5 -->
+
+
+</td><td width="125" VALIGN="top" align="right">
+</td></tr></table>
+
+<br>
+<hr align=left width="435" height="3">
+<p>
+
+<!-- NEWS TABLE 6 -->
+<TABLE cellpadding="3" cellspacing="0" border="0" width="100%"><tr><td ALIGN="left" VALIGN="top">
+
+<span class="subtitle"><font color="Blue"><li>Passover Seder Learning CD</font></span><BR>
+
+This disc contains all the tracks from the Passover Seder as listed on SiddurAudio.com 
+(in regular audio format - will play in most CD players).
+<br>
+
+<span class="price"><font color="Blue">Price $17.50</font></span> <font color="Red" size="+0"><b>*</b></font>
+<br>
+
+<!-- START PAYPAL ORDERING 6 -->
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"  
+onsubmit="this.target='_self';
+          return SetShip (this);">
+
+<input type="hidden" name="cmd" value="_cart" />
+<input type="hidden" name="add" value="1" />
+<input type="hidden" name="business" value="&#114;&#097;&#118;&#109;&#097;&#114;&#107;&#064;&#122;&#105;&#109;&#109;&#101;&#114;&#109;&#097;&#110;&#046;&#110;&#101;&#116;" />
+<input type="hidden" name="item_name" value="Passover Seder CD" />
+<input type="hidden" name="item_number" value="205" />
+<input type="hidden" name="amount" value="17.50" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="hidden" name="lc" value="US" />
+<input type="hidden" name="shopping_url" value="http://sidduraudio.com/cd-order.html">
+
+<input type="hidden" name="handling" value="" />
+<input type="hidden" name="handling_cart" value="" />
+<input type="hidden" name="shipping" value="" />
+<input type="hidden" name="shipping2" value="0" />
+<input type="hidden" name="on0" value="Shipping" />
+<input type="hidden" name="os0" value="" />
+
+Input Qty - 
+
+<input type="text" name="quantity" size="3" value="1" /> &nbsp; 
+
+<select name="shp">
+  <option>Select Shipping</option>
+  <option value="s1=3.50 s2=0.50">USA & Canada </option>
+  <option value="s1=5.95 s2=1.00">International</option>
+  
+</select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="image" src="addcart.gif" align="absmiddle" name="submit" alt="cart add" />
+
+</p>
+</form>
+
+<br>
+
+
+<!-- Form for Bonus Disk $10 Offer -->
+
+<table bgcolor="cccccc" cellspacing="3" cellpadding="3" border="0" width="90%">
+<tr>
+<td>
+
+<br>
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_self">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="&#114;&#097;&#118;&#109;&#097;&#114;&#107;&#064;&#122;&#105;&#109;&#109;&#101;&#114;&#109;&#097;&#110;&#046;&#110;&#101;&#116;">
+<input type="hidden" name="item_name" value="Passover Seder CD - $10 Bonus">
+<input type="hidden" name="item_number" value="205">
+<input type="hidden" name="amount" value="10.00">
+<input type="hidden" name="no_shipping" value="2">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="bn" value="PP-ShopCartBF">
+<input type="hidden" name="shopping_url" value="http://sidduraudio.com/cd-order.html">
+
+<font color="Blue" size="-1"><b>** Bonus **</b></font><br>
+<font color="Red" size="-1"><b>For <u>only $10</u></font>&nbsp;<font color="Blue"> - Add Passover CD to the Shabbat 3-disk Set&nbsp;</font> </b>
+<br>First add the <font color="Red">Shabbat 3 Disk Set</font> to your cart (above), then <br>click on <u>following</u> button to buy this disk 
+for just $10 more:<br><br>
+
+<input type="image" src="addcart.gif" align="absmiddle" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<font color="Red" size="+0"><b>* </font><font color="Red">Use <u>THIS BUTTON</u> for $10 Bonus CD</b></font>
+</form>
+
+
+
+</td></tr></table>
+
+
+<br><br><br>
+
+<hr align=left width="435" height="3">
+<p>
+
+
+<!-- END PAYPAL ORDERING 6 -->
+
+
+
+
+<img src="redarrow.gif" width="22" height="18" border="0" alt=""> <font color= "blue" size="-1">Click on the following link to order the
+<a href="http://www.rabbinicalassembly.org/product/siddur-sim-shalom-shabbat-and-festivals?tp=225">
+<u><b><i>Siddur Sim Shalom</i></b></u></a><br>Prayerbook for Shabbat and Festivals - Published by the Rabbinical Assembly.</font>
+<br><br><font size="-2"><b>- Above link will take you to the RA website. <br>- This edition uses the same page numbers indicated on our website.</b></font>  
+
+<p>
+<hr align=left width="435" height="3">
+<p&nbsp;&nbsp;&nbsp;></p>
+
+
+</td><td width="125" VALIGN="top" align="right">
+
+</td></tr></table>
+
+
+<!-- COPY AND PASTE CODE ABOVE HERE TO MAKE A NEW PARAGRAPH -->
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>
+
+<a href="contact.html">Contact us for more info ></a> 
+
+
+
+
+<IMG SRC="picts/spacer.gif" HEIGHT="5" WIDTH="250" alt="insert text"><br>
+
+
+</td>
+
+<td VALIGN="TOP" align="center" width="130">
+
+<input type="image" src="viewcart.gif" alt="cart view" 
+  onclick="document.forms.viewcart.target = '_self';
+           document.forms.viewcart.submit ();
+           return false;" />
+		   
+<br><br>
+
+<!-- PICTURE 1 -->
+<IMG SRC="picts/home-1.jpg" width="125" height="125" class="borders"><br>
+
+<br><br>
+
+<!-- PICTURE 2 -->
+<IMG SRC="picts/home-2.jpg" width="125" height="125" class="borders"><br>
+
+
+<br><br>
+
+<!-- PICTURE 3 -->
+<IMG SRC="picts/home-3.jpg" width="125" height="125" class="borders"><br>
+
+<br><br>
+
+</div>
+
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<!-- Begin Official PayPal Seal --><a href="https://www.paypal.com/us/verified/pal=ravmark%40zimmerman%2enet" target="_blank"><img src="https://www.paypal.com/en_US/i/icon/verification_seal.gif" border="0" alt="Official PayPal Seal"></A><!-- End Official PayPal Seal -->
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+
+<br><br>
+
+
+<font size="+0" color="Blue"><b><i>Thank you for supporting Siddur Audio!</i></b></font>
+
+
+<br><br><br>
+
+
+<input type="image" src="viewcart.gif" alt="cart view" 
+  onclick="document.forms.viewcart.target = '_self';
+           document.forms.viewcart.submit ();
+           return false;" />
+		   
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+
+<input type="image" src="viewcart.gif" alt="cart view" 
+  onclick="document.forms.viewcart.target = '_self';
+           document.forms.viewcart.submit ();
+           return false;" />
+
+		   
+</td></tr></table>
+<!-- END MAIN CONTENT TABLE -->
+
+
+
+
+
+</td></tr></table>
+<!-- SPLIT TABLE -->
+
+
+
+
+</td></tr></table>
+<!-- OUTER TABLE-->
+
+
+
+
+
+
+<!-- START THE FOOTER -->
+
+
+<TABLE cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td background="picts/bar.gif" colspan="2">
+<IMG SRC="picts/spacer.gif" HEIGHT="26" WIDTH="15" alt="insert text"><br>
+</td></tr></table>
+
+
+
+
+<!-- COPYRIGHT -->
+<TABLE cellpadding="0" cellspacing="0" border="0" width="100%" class="footertext"><tr><td WIDTH="10">
+<IMG SRC="picts/spacer.gif" HEIGHT="10" WIDTH="10" border="0"><br>
+
+</td><td ALIGN=LEFT VALIGN=TOP>
+
+<script language="JavaScript" src="copyright.js"></script>
+
+
+</td><td ALIGN="RIGHT" VALIGN="TOP">
+
+
+<script language="JavaScript" src="copyright-allwebco.js"></script>
+
+</TD><td WIDTH="10">
+
+<IMG SRC="picts/spacer.gif" HEIGHT="10" WIDTH="10" alt="insert text"><br>
+
+</td></tr></table>
+<!-- COPYRIGHT -->
+
+
+<!-- END THE FOOTER -->
+
+
+</BODY>
+</HTML>
